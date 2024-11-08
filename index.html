@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гурток «Основи програмування мовою Python»</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Гурток «Основи програмування мовою Python»</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">Про гурток</a></li>
+          <li><a href="#program">Програма гуртка</a></li>
+          <li><a href="#advantages">Переваги</a></li>
+          <li><a href="#examples">Приклади завдань</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>Про гурток</h2>
+      <p>
+        Наш гурток призначений для учнів, які хочуть вивчити основи
+        програмування на мові Python, навчитися створювати проекти та брати
+        участь у конкурсах з програмування. Ми пропонуємо інтерактивне навчання,
+        яке поєднує теоретичні лекції та практичні завдання.
+      </p>
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/example.webp" alt="Фото 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/example2.webp" alt="Фото 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/example3.webp" alt="Фото 3" />
+          </div>
+        </div>
+        <button class="carousel-btn prev" onclick="prevSlide()">
+          &#10094;
+        </button>
+        <button class="carousel-btn next" onclick="nextSlide()">
+          &#10095;
+        </button>
+      </div>
+    </section>
+
+    <section id="program">
+      <h2>Програма гуртка</h2>
+      <ul>
+        <li>
+          <strong
+            >Вступне заняття. Правила безпеки, організаційні питання:</strong
+          >
+          ознайомлення з правилами поведінки, організаційні питання, основи
+          безпеки при роботі за комп'ютером.
+        </li>
+        <li>
+          <strong>Основи програмування та алгоритмізації:</strong> основні
+          поняття алгоритму, структура алгоритмів, типи алгоритмів, побудова
+          блок-схем.
+        </li>
+        <li>
+          <strong>Синтаксис мови Python:</strong> базові елементи мови, змінні,
+          оператори, коментарі, структура програми.
+        </li>
+        <li>
+          <strong>Змінні та типи даних:</strong> основні типи даних, робота зі
+          змінними, присвоєння значень, обробка даних.
+        </li>
+        <li>
+          <strong>Оператори введення та виведення:</strong> використання функцій
+          input() та print(), форматування виводу.
+        </li>
+        <li>
+          <strong>Умовні конструкції:</strong> оператори if, else, elif,
+          використання логічних операторів.
+        </li>
+        <li>
+          <strong>Цикли та ітерації:</strong> цикли for та while, оператори
+          break і continue, вкладені цикли.
+        </li>
+        <li>
+          <strong>Функції та модулі:</strong> створення та використання функцій,
+          імпортування модулів.
+        </li>
+        <li>
+          <strong>Лямбда-функції та рекурсія:</strong> синтаксис лямбда-функцій,
+          використання рекурсивних функцій для вирішення задач.
+        </li>
+        <li>
+          <strong>Робота з бібліотеками та пакетами:</strong> огляд стандартних
+          бібліотек Python, підключення пакетів.
+        </li>
+        <li>
+          <strong>Візуалізація даних (matplotlib та seaborn):</strong> створення
+          графіків і діаграм, налаштування відображення даних.
+        </li>
+        <li>
+          <strong>Робота з файлами:</strong> читання і запис файлів, методи
+          open(), read(), write().
+        </li>
+        <li>
+          <strong>Структури даних: списки, словники, множини:</strong> основні
+          операції з різними структурами даних, додавання і видалення елементів.
+        </li>
+        <li>
+          <strong>Обробка текстових даних:</strong> методи для роботи з рядками,
+          регулярні вирази, пошук і заміна тексту.
+        </li>
+        <li>
+          <strong>Основи створення графічних інтерфейсів (Tkinter):</strong>
+          створення віконних додатків, робота з віджетами.
+        </li>
+        <li>
+          <strong>Основи об'єктно-орієнтованого програмування:</strong> класи,
+          об'єкти, методи, інкапсуляція.
+        </li>
+        <li>
+          <strong>Спадкування та поліморфізм у Python:</strong> використання
+          спадкування, приклади поліморфізму.
+        </li>
+        <li>
+          <strong>Створення власних модулів та їх імпортування:</strong>
+          організація коду у вигляді модулів.
+        </li>
+        <li>
+          <strong>Основи роботи з базами даних (SQLite):</strong> створення
+          таблиць, SQL-запити, збереження і зчитування даних.
+        </li>
+        <li>
+          <strong>Інтеграція баз даних у програми Python:</strong> використання
+          бібліотеки sqlite3 для роботи з базами даних.
+        </li>
+        <li>
+          <strong>Основи мережевого програмування:</strong> створення
+          клієнт-серверних програм, бібліотека socket.
+        </li>
+        <li>
+          <strong>Використання API:</strong> підключення до зовнішніх сервісів,
+          використання бібліотеки requests.
+        </li>
+        <li>
+          <strong>Підготовка та захист проектів:</strong> планування, розробка,
+          тестування та презентація проектів.
+        </li>
+        <li>
+          <strong>Підсумкове заняття:</strong> обговорення результатів,
+          презентація робіт та підбиття підсумків навчання.
+        </li>
+      </ul>
+    </section>
+
+    <section id="advantages">
+      <h2>Переваги навчання у нашому гуртку</h2>
+      <ul>
+        <li>
+          Заняття проводяться кваліфікованим викладачем із досвідом роботи в
+          програмуванні.
+        </li>
+        <li>
+          Учні отримують можливість брати участь у конкурсах та олімпіадах з
+          програмування.
+        </li>
+        <li>Розробка власних проектів із застосуванням набутих знань.</li>
+        <li>Інтерактивне навчання та підтримка на всіх етапах навчання.</li>
+      </ul>
+    </section>
+
+    <section id="examples">
+      <h2>Приклади завдань, що вирішуються на заняттях</h2>
+
+      <div class="task">
+        <h3>Задача 1: Перевірка простого числа</h3>
+        <p>Напишіть програму, яка перевіряє, чи є введене число простим.</p>
+        <pre><code>def is_prime(n):
+        if n <= 1:
+            return False
+        for i in range(2, int(n**0.5) + 1):
+            if n % i == 0:
+                return False
+        return True
+    
+    num = int(input("Введіть число: "))
+    if is_prime(num):
+        print("Число є простим.")
+    else:
+        print("Число не є простим.")</code></pre>
+        <iframe
+          width="560"
+          height="315"
+          src="https://youtu.be/cgqk0cAHgzc"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="task">
+        <h3>Задача 2: Підрахунок кількості слів</h3>
+        <p>
+          Напишіть програму, яка підраховує кількість слів у введеному рядку.
+        </p>
+        <pre><code>text = input("Введіть текст: ")
+    words = text.split()
+    print("Кількість слів:", len(words))</code></pre>
+        <iframe
+          width="560"
+          height="315"
+          src="https://youtu.be/73ECAnf0eLE"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="task">
+        <h3>Задача 3: Виведення таблиці множення</h3>
+        <p>Створіть програму, яка генерує таблицю множення від 1 до 10.</p>
+        <pre><code>for i in range(1, 11):
+        for j in range(1, 11):
+            print(f"{i * j:4}", end=" ")
+        print()</code></pre>
+        <iframe
+          width="560"
+          height="315"
+          src="https://youtu.be/WzfjndRsS_8"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Контактна інформація</h2>
+      <p>Для запису на гурток або запитань звертайтеся:</p>
+      <p><strong>Телефон:</strong> +380 123 456 789</p>
+      <p><strong>Email:</strong> python.club@example.com</p>
+      <p><strong>Адреса:</strong> м. Київ, вул. Програмістів, 12</p>
+      <p>
+        Ми раді відповісти на всі ваші запитання та допомогти з інформацією про
+        наш гурток!
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Гурток «Основи програмування мовою Python». Всі права
+        захищені.
+      </p>
+    </footer>
+    <script>
+      let currentSlide = 0;
+
+      function showSlide(index) {
+        const slides = document.querySelectorAll(".carousel-item");
+        if (index >= slides.length) {
+          currentSlide = 0;
+        } else if (index < 0) {
+          currentSlide = slides.length - 1;
+        } else {
+          currentSlide = index;
+        }
+
+        const offset = -currentSlide * 100;
+        document.querySelector(
+          ".carousel-inner"
+        ).style.transform = `translateX(${offset}%)`;
+      }
+
+      function nextSlide() {
+        showSlide(currentSlide + 1);
+      }
+
+      function prevSlide() {
+        showSlide(currentSlide - 1);
+      }
+    </script>
+  </body>
+</html>
